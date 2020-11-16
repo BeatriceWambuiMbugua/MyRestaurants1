@@ -4,14 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RestaurantsActivity">
+    tools:context=".RestaurantsActivity"
+    android:background="@color/grey">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Restaurants near"
         android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginTop="40dp"
+        android:text="Restaurants near"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/locationTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-550dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"/>
 
 </RelativeLayout>

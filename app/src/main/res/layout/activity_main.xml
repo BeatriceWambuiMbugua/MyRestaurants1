@@ -24,16 +24,17 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
+        android:id="@+id/appNameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
+        android:fontFamily="@font/roboto_slab_bold"
         android:text="MyRestaurants"
         android:textColor="@color/teal_200"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:id="@+id/appNameTextView"/>
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/findRestaurantsButton"

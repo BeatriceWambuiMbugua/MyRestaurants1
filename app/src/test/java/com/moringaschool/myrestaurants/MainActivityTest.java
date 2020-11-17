@@ -1,8 +1,10 @@
 package com.moringaschool.myrestaurants;
 
 import android.content.Intent;
-import android.os.Build;
 import android.widget.TextView;
+
+import com.moringaschool.myrestaurants.ui.MainActivity;
+import com.moringaschool.myrestaurants.ui.RestaurantsActivity;
 
 import org.junit.Before;
 import org.junit.Test;
